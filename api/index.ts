@@ -3,6 +3,7 @@ const puppeteer = require('puppeteer');
 const app = express();
 const port = 3000;
 const cors = require('cors');
+const chromium = require("@sparticuz/chromium");
 const sleep = ms => new Promise(res => setTimeout(res, ms));
 
 app.use(cors());
